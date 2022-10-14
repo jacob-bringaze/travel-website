@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Wonderland</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">WONDERLAND</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#" class="ctn1" >Contact</a></li>            
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore the Wonderland</h2>
+            <div class="line"></div>
+            <h1>A Wonderful Gift</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events" id="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line1"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/pexels-steven-hylands-1650892.jpg" alt="">
+                <h4>Explaining Enviorment</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis totam distinctio est ex mollitia dolores quos officiis perspiciatis.</p>
+                <a href="#" class="ctn1" >Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/pexels-steven-hylands-1650829.jpg" alt="">
+                <h4>Explaining Enviorment</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis totam distinctio est ex mollitia dolores quos officiis perspiciatis.</p>
+                <a href="#" class="ctn1" >Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore" id="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laudantium ducimus veniam consequatur, suscipit quas animi exercitationem? Veritatis tempore eos tempora incidunt inventore! Earum dignissimos architecto maxime repellendus velit accusamus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut corporis quaerat expedita, nam facere atque quidem delectus in officiis provident necessitatibus explicabo, a adipisci repellendus excepturi, quisquam debitis. In, reiciendis.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours" id="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS</h1>
+                <div class="line1"></div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus hic obcaecati soluta beatae, id excepturi ducimus tempora et molestiae! Fuga vitae officia ipsum aut, cumque tenetur? Rem illo animi et?</p>
+                <a href="#" class="ctn1">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/pexels-david-geib-3220828.jpg" alt="">
+                    <img src="./img/pexels-tom-balabaud-3404361.jpg" alt="">
+                    <img src="./img/pexels-steven-hylands-1650882.jpg" alt="">
+                    <img src="./img/pexels-kelly-2382681.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>123 Fifth Av, Oklahoma City, OK | 800-555-5555 | Email: contact@example.com</p>
+        <p>Copyright @ 2022 Outdoor Adventure</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+
+    </script>
+
+
+</body>
+</html>
